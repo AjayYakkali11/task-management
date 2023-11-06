@@ -1,0 +1,94 @@
+body {
+  background-image: url('left.avif');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  background-image: url('images (2).jpeg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 20px;
+  color: #007BFF;
+}
+
+#clockContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007BFF;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin-top: 30px;
+}
+
+#clock {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  border: 2px solid #007BFF;
+  overflow: hidden;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Custom green button */
+.custom-green-button {
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.custom-green-button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+
+/* Custom red button */
+.custom-red-button {
+  background-color: #FF5733; /* Red color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.custom-red-button:hover {
+  background-color: #e5422e; /* Darker red color on hover */
+}
